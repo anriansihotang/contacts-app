@@ -2,6 +2,8 @@ import React from "react";
 import ContactList from "./ContactList";
 import { getData } from "./data";
 
+// * styling
+import './style.css'
 const ContactApp = () => {
 	const contacts = getData();
 
